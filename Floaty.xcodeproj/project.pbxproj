@@ -7,24 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B65A2E651D59755A0045483D /* KCFABManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A2E5E1D59755A0045483D /* KCFABManager.swift */; };
-		B65A2E661D59755A0045483D /* KCFABViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A2E5F1D59755A0045483D /* KCFABViewController.swift */; };
-		B65A2E671D59755A0045483D /* KCFABWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A2E601D59755A0045483D /* KCFABWindow.swift */; };
-		B65A2E681D59755A0045483D /* KCFloatingActionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B65A2E611D59755A0045483D /* KCFloatingActionButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B65A2E691D59755A0045483D /* KCFloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A2E621D59755A0045483D /* KCFloatingActionButton.swift */; };
-		B65A2E6A1D59755A0045483D /* KCFloatingActionButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A2E631D59755A0045483D /* KCFloatingActionButtonDelegate.swift */; };
-		B65A2E6B1D59755A0045483D /* KCFloatingActionButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A2E641D59755A0045483D /* KCFloatingActionButtonItem.swift */; };
+		801D03EA21E70D6C00CD67F0 /* UIView+Draggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D03E921E70D6C00CD67F0 /* UIView+Draggable.swift */; };
+		84762CB01ECB4B98007C4ABD /* Floaty.h in Headers */ = {isa = PBXBuildFile; fileRef = 84762CA91ECB4B98007C4ABD /* Floaty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84762CB11ECB4B98007C4ABD /* Floaty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84762CAA1ECB4B98007C4ABD /* Floaty.swift */; };
+		84762CB21ECB4B98007C4ABD /* FloatyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84762CAB1ECB4B98007C4ABD /* FloatyDelegate.swift */; };
+		84762CB31ECB4B98007C4ABD /* FloatyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84762CAC1ECB4B98007C4ABD /* FloatyItem.swift */; };
+		84762CB41ECB4B98007C4ABD /* FloatyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84762CAD1ECB4B98007C4ABD /* FloatyManager.swift */; };
+		84762CB51ECB4B98007C4ABD /* FloatyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84762CAE1ECB4B98007C4ABD /* FloatyViewController.swift */; };
+		84762CB61ECB4B98007C4ABD /* FloatyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84762CAF1ECB4B98007C4ABD /* FloatyWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B65A2E531D5975130045483D /* KCFloatingActionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KCFloatingActionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B65A2E5E1D59755A0045483D /* KCFABManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KCFABManager.swift; path = Sources/KCFABManager.swift; sourceTree = SOURCE_ROOT; };
-		B65A2E5F1D59755A0045483D /* KCFABViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KCFABViewController.swift; path = Sources/KCFABViewController.swift; sourceTree = SOURCE_ROOT; };
-		B65A2E601D59755A0045483D /* KCFABWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KCFABWindow.swift; path = Sources/KCFABWindow.swift; sourceTree = SOURCE_ROOT; };
-		B65A2E611D59755A0045483D /* KCFloatingActionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KCFloatingActionButton.h; path = Sources/KCFloatingActionButton.h; sourceTree = SOURCE_ROOT; };
-		B65A2E621D59755A0045483D /* KCFloatingActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KCFloatingActionButton.swift; path = Sources/KCFloatingActionButton.swift; sourceTree = SOURCE_ROOT; };
-		B65A2E631D59755A0045483D /* KCFloatingActionButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KCFloatingActionButtonDelegate.swift; path = Sources/KCFloatingActionButtonDelegate.swift; sourceTree = SOURCE_ROOT; };
-		B65A2E641D59755A0045483D /* KCFloatingActionButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KCFloatingActionButtonItem.swift; path = Sources/KCFloatingActionButtonItem.swift; sourceTree = SOURCE_ROOT; };
+		801D03E921E70D6C00CD67F0 /* UIView+Draggable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Draggable.swift"; path = "Sources/UIView+Draggable.swift"; sourceTree = "<group>"; };
+		84762CA91ECB4B98007C4ABD /* Floaty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Floaty.h; path = Sources/Floaty.h; sourceTree = SOURCE_ROOT; };
+		84762CAA1ECB4B98007C4ABD /* Floaty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Floaty.swift; path = Sources/Floaty.swift; sourceTree = SOURCE_ROOT; };
+		84762CAB1ECB4B98007C4ABD /* FloatyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatyDelegate.swift; path = Sources/FloatyDelegate.swift; sourceTree = SOURCE_ROOT; };
+		84762CAC1ECB4B98007C4ABD /* FloatyItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatyItem.swift; path = Sources/FloatyItem.swift; sourceTree = SOURCE_ROOT; };
+		84762CAD1ECB4B98007C4ABD /* FloatyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatyManager.swift; path = Sources/FloatyManager.swift; sourceTree = SOURCE_ROOT; };
+		84762CAE1ECB4B98007C4ABD /* FloatyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatyViewController.swift; path = Sources/FloatyViewController.swift; sourceTree = SOURCE_ROOT; };
+		84762CAF1ECB4B98007C4ABD /* FloatyWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatyWindow.swift; path = Sources/FloatyWindow.swift; sourceTree = SOURCE_ROOT; };
+		B65A2E531D5975130045483D /* Floaty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Floaty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65A2E6C1D5975610045483D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Supports/Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -42,32 +44,35 @@
 		B65A2E491D5975130045483D = {
 			isa = PBXGroup;
 			children = (
-				B65A2E551D5975130045483D /* KCFloatingActionButton */,
+				B65A2E551D5975130045483D /* Floaty */,
 				B65A2E541D5975130045483D /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		B65A2E541D5975130045483D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B65A2E531D5975130045483D /* KCFloatingActionButton.framework */,
+				B65A2E531D5975130045483D /* Floaty.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B65A2E551D5975130045483D /* KCFloatingActionButton */ = {
+		B65A2E551D5975130045483D /* Floaty */ = {
 			isa = PBXGroup;
 			children = (
+				84762CA91ECB4B98007C4ABD /* Floaty.h */,
+				84762CAA1ECB4B98007C4ABD /* Floaty.swift */,
+				84762CAB1ECB4B98007C4ABD /* FloatyDelegate.swift */,
+				84762CAC1ECB4B98007C4ABD /* FloatyItem.swift */,
+				84762CAD1ECB4B98007C4ABD /* FloatyManager.swift */,
+				84762CAE1ECB4B98007C4ABD /* FloatyViewController.swift */,
+				84762CAF1ECB4B98007C4ABD /* FloatyWindow.swift */,
+				801D03E921E70D6C00CD67F0 /* UIView+Draggable.swift */,
 				B65A2E6C1D5975610045483D /* Info.plist */,
-				B65A2E5E1D59755A0045483D /* KCFABManager.swift */,
-				B65A2E5F1D59755A0045483D /* KCFABViewController.swift */,
-				B65A2E601D59755A0045483D /* KCFABWindow.swift */,
-				B65A2E611D59755A0045483D /* KCFloatingActionButton.h */,
-				B65A2E621D59755A0045483D /* KCFloatingActionButton.swift */,
-				B65A2E631D59755A0045483D /* KCFloatingActionButtonDelegate.swift */,
-				B65A2E641D59755A0045483D /* KCFloatingActionButtonItem.swift */,
 			);
-			path = KCFloatingActionButton;
+			name = Floaty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,16 +82,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B65A2E681D59755A0045483D /* KCFloatingActionButton.h in Headers */,
+				84762CB01ECB4B98007C4ABD /* Floaty.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B65A2E521D5975130045483D /* KCFloatingActionButton */ = {
+		B65A2E521D5975130045483D /* Floaty */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B65A2E5B1D5975130045483D /* Build configuration list for PBXNativeTarget "KCFloatingActionButton" */;
+			buildConfigurationList = B65A2E5B1D5975130045483D /* Build configuration list for PBXNativeTarget "Floaty" */;
 			buildPhases = (
 				B65A2E4E1D5975130045483D /* Sources */,
 				B65A2E4F1D5975130045483D /* Frameworks */,
@@ -97,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = KCFloatingActionButton;
-			productName = KCFloatingActionButton;
-			productReference = B65A2E531D5975130045483D /* KCFloatingActionButton.framework */;
+			name = Floaty;
+			productName = Floaty;
+			productReference = B65A2E531D5975130045483D /* Floaty.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -108,20 +113,21 @@
 		B65A2E4A1D5975130045483D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Lee Sun-Hyoup";
 				TargetAttributes = {
 					B65A2E521D5975130045483D = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
-			buildConfigurationList = B65A2E4D1D5975130045483D /* Build configuration list for PBXProject "KCFloatingActionButton" */;
+			buildConfigurationList = B65A2E4D1D5975130045483D /* Build configuration list for PBXProject "Floaty" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = B65A2E491D5975130045483D;
@@ -129,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B65A2E521D5975130045483D /* KCFloatingActionButton */,
+				B65A2E521D5975130045483D /* Floaty */,
 			);
 		};
 /* End PBXProject section */
@@ -149,12 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B65A2E671D59755A0045483D /* KCFABWindow.swift in Sources */,
-				B65A2E661D59755A0045483D /* KCFABViewController.swift in Sources */,
-				B65A2E651D59755A0045483D /* KCFABManager.swift in Sources */,
-				B65A2E691D59755A0045483D /* KCFloatingActionButton.swift in Sources */,
-				B65A2E6B1D59755A0045483D /* KCFloatingActionButtonItem.swift in Sources */,
-				B65A2E6A1D59755A0045483D /* KCFloatingActionButtonDelegate.swift in Sources */,
+				84762CB61ECB4B98007C4ABD /* FloatyWindow.swift in Sources */,
+				84762CB41ECB4B98007C4ABD /* FloatyManager.swift in Sources */,
+				801D03EA21E70D6C00CD67F0 /* UIView+Draggable.swift in Sources */,
+				84762CB11ECB4B98007C4ABD /* Floaty.swift in Sources */,
+				84762CB21ECB4B98007C4ABD /* FloatyDelegate.swift in Sources */,
+				84762CB51ECB4B98007C4ABD /* FloatyViewController.swift in Sources */,
+				84762CB31ECB4B98007C4ABD /* FloatyItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,14 +177,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -206,6 +221,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -221,14 +237,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -250,6 +274,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -270,11 +295,11 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kciter.KCFloatingActionButton;
+				PRODUCT_BUNDLE_IDENTIFIER = kciter.Floaty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -291,17 +316,17 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kciter.KCFloatingActionButton;
+				PRODUCT_BUNDLE_IDENTIFIER = kciter.Floaty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B65A2E4D1D5975130045483D /* Build configuration list for PBXProject "KCFloatingActionButton" */ = {
+		B65A2E4D1D5975130045483D /* Build configuration list for PBXProject "Floaty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B65A2E591D5975130045483D /* Debug */,
@@ -310,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B65A2E5B1D5975130045483D /* Build configuration list for PBXNativeTarget "KCFloatingActionButton" */ = {
+		B65A2E5B1D5975130045483D /* Build configuration list for PBXNativeTarget "Floaty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B65A2E5C1D5975130045483D /* Debug */,

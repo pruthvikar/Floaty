@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		801D03EC21E7110000CD67F0 /* UIView+Draggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D03EB21E7110000CD67F0 /* UIView+Draggable.swift */; };
 		B6640EA21BCEA8DA0099510D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6640EA11BCEA8DA0099510D /* LaunchScreen.xib */; };
 		B671D9341EB11BA5005EE7E1 /* Floaty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B671D92E1EB11BA5005EE7E1 /* Floaty.swift */; };
 		B671D9351EB11BA5005EE7E1 /* FloatyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B671D92F1EB11BA5005EE7E1 /* FloatyDelegate.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		801D03EB21E7110000CD67F0 /* UIView+Draggable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Draggable.swift"; path = "../../Sources/UIView+Draggable.swift"; sourceTree = "<group>"; };
 		B6640EA11BCEA8DA0099510D /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		B671D92E1EB11BA5005EE7E1 /* Floaty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Floaty.swift; path = ../../Sources/Floaty.swift; sourceTree = "<group>"; };
 		B671D92F1EB11BA5005EE7E1 /* FloatyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatyDelegate.swift; path = ../../Sources/FloatyDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				B671D9311EB11BA5005EE7E1 /* FloatyManager.swift */,
 				B671D9321EB11BA5005EE7E1 /* FloatyViewController.swift */,
 				B671D9331EB11BA5005EE7E1 /* FloatyWindow.swift */,
+				801D03EB21E7110000CD67F0 /* UIView+Draggable.swift */,
 			);
 			name = KCFloatingActionButton;
 			sourceTree = "<group>";
@@ -125,7 +128,7 @@
 		B6F66E0E1BC1017F00E47769 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = kciter;
 				TargetAttributes = {
 					B6F66E151BC1017F00E47769 = {
@@ -136,7 +139,7 @@
 			};
 			buildConfigurationList = B6F66E111BC1017F00E47769 /* Build configuration list for PBXProject "KCFloatingActionButton-Sample" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -171,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				801D03EC21E7110000CD67F0 /* UIView+Draggable.swift in Sources */,
 				B671D9391EB11BA5005EE7E1 /* FloatyWindow.swift in Sources */,
 				B6F66E1C1BC1017F00E47769 /* ViewController.swift in Sources */,
 				B6F66E1A1BC1017F00E47769 /* AppDelegate.swift in Sources */,
@@ -205,14 +209,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -240,6 +252,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -251,14 +264,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -279,6 +300,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -287,12 +309,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KCFloatingActionButton/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kciter.KCFloatingActionButton;
 				PRODUCT_NAME = "KCFloatingActionButton-Sample";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -300,12 +323,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KCFloatingActionButton/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kciter.KCFloatingActionButton;
 				PRODUCT_NAME = "KCFloatingActionButton-Sample";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
